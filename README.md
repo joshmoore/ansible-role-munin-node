@@ -1,6 +1,7 @@
 # Ansible Role: Munin Node
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-munin-node.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-munin-node)
+[![Build Status](https://travis-ci.org/ome/ansible-role-munin-node.svg)](https://travis-ci.org/ome/ansible-role-munin)
+[![Ansible Role](https://img.shields.io/ansible/role/41995.svg)](https://galaxy.ansible.com/ome/munin_node/)
 
 Installs munin-node, a monitoring system endpoint, on RedHat/CentOS or Debian/Ubuntu Linux servers.
 
@@ -64,7 +65,7 @@ None.
 
     - hosts: servers
       roles:
-        - { role: geerlingguy.munin-node }
+        - { role: ome.munin_node }
 
 ## License
 
